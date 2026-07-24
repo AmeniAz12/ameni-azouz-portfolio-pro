@@ -51,9 +51,10 @@ function ActionLink({
   icon: React.ReactNode
 }) {
   if (!href) return null
+  const resolvedHref = withBasePath(href)
   return (
     <a
-      href={href}
+      href={resolvedHref}
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center gap-2 rounded-full border border-border bg-secondary/40 px-4 py-2 text-sm font-medium transition-colors hover:border-primary/50 hover:text-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
