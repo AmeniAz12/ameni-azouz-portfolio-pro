@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://ameniaz12.github.io/ameni-azouz-portfolio-pro/sitemap.xml

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">ScanPot security monitoring preview</title>
+  <desc id="desc">A professional preview for ScanPot, a Flask scanner, honeypot and SOC dashboard project.</desc>
+  <rect width="1280" height="720" fill="#0b1120"/>
+  <rect x="64" y="56" width="1152" height="608" rx="20" fill="#111827" stroke="#2f4058" stroke-width="2"/>
+  <rect x="64" y="56" width="1152" height="66" rx="20" fill="#172033"/>
+  <text x="104" y="98" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="25" font-weight="700">ScanPot · Scanner · Honeypot · SOC Dashboard</text>
+  <rect x="104" y="160" width="242" height="132" rx="12" fill="#0f172a" stroke="#334155"/>
+  <rect x="382" y="160" width="242" height="132" rx="12" fill="#0f172a" stroke="#334155"/>
+  <rect x="660" y="160" width="242" height="132" rx="12" fill="#0f172a" stroke="#334155"/>
+  <rect x="938" y="160" width="242" height="132" rx="12" fill="#0f172a" stroke="#334155"/>
+  <g font-family="Arial, sans-serif">
+    <text x="130" y="201" fill="#94a3b8" font-size="16">Scanner</text>
+    <text x="130" y="253" fill="#38bdf8" font-size="42" font-weight="800">XSS</text>
+    <text x="408" y="201" fill="#94a3b8" font-size="16">Detection</text>
+    <text x="408" y="253" fill="#f8fafc" font-size="42" font-weight="800">SQLi</text>
+    <text x="686" y="201" fill="#94a3b8" font-size="16">Risk scoring</text>
+    <text x="686" y="253" fill="#fb7185" font-size="42" font-weight="800">0-100</text>
+    <text x="964" y="201" fill="#94a3b8" font-size="16">Dashboard</text>
+    <text x="964" y="253" fill="#22c55e" font-size="42" font-weight="800">SOC</text>
+  </g>
+  <rect x="104" y="334" width="548" height="270" rx="12" fill="#0f172a" stroke="#334155"/>
+  <rect x="696" y="334" width="484" height="270" rx="12" fill="#0f172a" stroke="#334155"/>
+  <text x="134" y="380" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="21" font-weight="700">Suspicious activity timeline</text>
+  <polyline points="134,535 210,485 292,507 374,430 456,468 548,390 622,414" fill="none" stroke="#38bdf8" stroke-width="5"/>
+  <polyline points="134,560 210,542 292,570 374,506 456,524 548,480 622,500" fill="none" stroke="#fb7185" stroke-width="5"/>
+  <line x1="134" y1="580" x2="622" y2="580" stroke="#334155" stroke-width="2"/>
+  <line x1="134" y1="410" x2="134" y2="580" stroke="#334155" stroke-width="2"/>
+  <text x="726" y="380" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="21" font-weight="700">Detection flow</text>
+  <g fill="#1d4ed8">
+    <circle cx="778" cy="475" r="38"/>
+    <circle cx="910" cy="475" r="38"/>
+    <circle cx="1042" cy="475" r="38"/>
+  </g>
+  <path d="M816 475h56M948 475h56" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#f8fafc" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">
+    <text x="778" y="481">Trap</text>
+    <text x="910" y="481">Score</text>
+    <text x="1042" y="481">Alert</text>
+  </g>
+  <text x="760" y="554" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Authorized lab monitoring and deception</text>
+</svg>

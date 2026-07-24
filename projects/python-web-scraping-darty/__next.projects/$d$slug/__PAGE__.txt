@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[71440,["/ameni-azouz-portfolio-pro/_next/static/chunks/0v0l27rweo6y8.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0oj_gqyj_v382.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0lnwuypoh~a~-.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0~9gpmd6x1jbp.js"],"ProjectCaseStudyClient"]
+3:I[54439,["/ameni-azouz-portfolio-pro/_next/static/chunks/0v0l27rweo6y8.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0oj_gqyj_v382.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"python-web-scraping-darty"}],[["$","script","script-0",{"src":"/ameni-azouz-portfolio-pro/_next/static/chunks/0lnwuypoh~a~-.js","async":true}],["$","script","script-1",{"src":"/ameni-azouz-portfolio-pro/_next/static/chunks/0~9gpmd6x1jbp.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"wdgCwr1eUm_sMJ8AQKkuM"}
+5:null

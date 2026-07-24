@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">OWASP Juice Shop injection lab cover</title>
+  <desc id="desc">Professional web security cover showing login testing, injection risk and remediation context.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0b1020"/><stop offset=".55" stop-color="#141827"/><stop offset="1" stop-color="#24152a"/></linearGradient>
+    <linearGradient id="violet" x1="0" x2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0v42" fill="none" stroke="#c4b5fd" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><rect width="1200" height="675" fill="url(#grid)"/>
+  <rect x="82" y="72" width="1036" height="531" rx="28" fill="#101422" stroke="#3b3154"/>
+  <text x="132" y="132" fill="#f5f3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">OWASP Injection Lab</text>
+  <text x="132" y="532" fill="#c4b5fd" font-family="Consolas,monospace" font-size="22">A03:2021 · Login Form · SQLi · Remediation</text>
+  <g transform="translate(152 202)">
+    <rect width="404" height="248" rx="22" fill="#121a2b" stroke="#45375d"/>
+    <rect x="38" y="46" width="328" height="42" rx="9" fill="#172238" stroke="#2d3b56"/>
+    <rect x="38" y="116" width="328" height="42" rx="9" fill="#172238" stroke="#2d3b56"/>
+    <rect x="38" y="184" width="154" height="42" rx="21" fill="#7c3aed"/>
+    <text x="56" y="74" fill="#c4b5fd" font-family="Consolas,monospace" font-size="18">' OR 1=1 --</text>
+  </g>
+  <g fill="none" stroke="url(#violet)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M688 240h270c44 0 80 36 80 80s-36 80-80 80H688c-44 0-80-36-80-80s36-80 80-80Z"/>
+    <path d="M736 280 696 320l40 40M910 280l40 40-40 40M832 272l-36 96"/>
+    <path d="M960 438h80M1000 398v80"/>
+  </g>
+</svg>

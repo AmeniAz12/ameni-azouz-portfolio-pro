@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Ameni Azzouz favicon</title>
+  <desc id="desc">A cybersecurity shield favicon with the initials AA.</desc>
+  <rect width="180" height="180" rx="38" fill="#0b1120"/>
+  <path d="M90 22 139 40v38c0 32-19 61-49 80-30-19-49-48-49-80V40l49-18Z" fill="#111827" stroke="#38bdf8" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M69 114 83 66h15l14 48H99l-3-12H85l-3 12H69Zm19-24h6l-3-13-3 13Z" fill="#f8fafc"/>
+  <path d="M99 114 113 66h15l14 48h-13l-3-12h-11l-3 12H99Zm19-24h6l-3-13-3 13Z" fill="#7dd3fc"/>
+  <path d="M56 130h68" stroke="#38bdf8" stroke-width="7" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Network Recon Analyzer preview</title>
+  <desc id="desc">A professional preview for an educational network reconnaissance and port scanning tool.</desc>
+  <rect width="1280" height="720" fill="#0b1120"/>
+  <rect x="64" y="58" width="1152" height="604" rx="20" fill="#111827" stroke="#2f4058" stroke-width="2"/>
+  <text x="104" y="118" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="28" font-weight="700">Network Recon Analyzer</text>
+  <rect x="104" y="162" width="500" height="410" rx="16" fill="#0f172a" stroke="#334155"/>
+  <rect x="656" y="162" width="460" height="410" rx="16" fill="#0f172a" stroke="#334155"/>
+  <text x="138" y="214" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Target service map</text>
+  <g stroke="#38bdf8" stroke-width="4" opacity=".9">
+    <line x1="350" y1="360" x2="220" y2="274"/>
+    <line x1="350" y1="360" x2="220" y2="450"/>
+    <line x1="350" y1="360" x2="500" y2="274"/>
+    <line x1="350" y1="360" x2="500" y2="450"/>
+  </g>
+  <circle cx="350" cy="360" r="58" fill="#1d4ed8"/>
+  <circle cx="220" cy="274" r="38" fill="#0f766e"/>
+  <circle cx="220" cy="450" r="38" fill="#be123c"/>
+  <circle cx="500" cy="274" r="38" fill="#7c3aed"/>
+  <circle cx="500" cy="450" r="38" fill="#15803d"/>
+  <g fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+    <text x="350" y="367">Host</text>
+    <text x="220" y="281">22</text>
+    <text x="220" y="457">80</text>
+    <text x="500" y="281">443</text>
+    <text x="500" y="457">3306</text>
+  </g>
+  <text x="694" y="214" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="22" font-weight="700">Recon workflow</text>
+  <g fill="#cbd5e1" font-family="Arial, sans-serif" font-size="20">
+    <text x="724" y="286">Port scan</text>
+    <text x="724" y="354">Service detection</text>
+    <text x="724" y="422">Banner grabbing</text>
+    <text x="724" y="490">Authorized reporting</text>
+  </g>
+  <g fill="#38bdf8">
+    <rect x="694" y="268" width="14" height="14" rx="3"/>
+    <rect x="694" y="336" width="14" height="14" rx="3"/>
+    <rect x="694" y="404" width="14" height="14" rx="3"/>
+    <rect x="694" y="472" width="14" height="14" rx="3"/>
+  </g>
+</svg>

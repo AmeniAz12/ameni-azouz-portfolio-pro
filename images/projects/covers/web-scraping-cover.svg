@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Python web scraping pipeline cover</title>
+  <desc id="desc">Professional data automation cover showing extraction, transformation and CSV export.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07111d"/><stop offset=".55" stop-color="#111827"/><stop offset="1" stop-color="#1f2937"/></linearGradient>
+    <linearGradient id="amber" x1="0" x2="1"><stop stop-color="#fbbf24"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0v42" fill="none" stroke="#fde68a" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><rect width="1200" height="675" fill="url(#grid)"/>
+  <rect x="82" y="72" width="1036" height="531" rx="28" fill="#0d1520" stroke="#4a3b23"/>
+  <text x="132" y="132" fill="#fffbeb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">Python Data Extraction</text>
+  <text x="132" y="532" fill="#fde68a" font-family="Consolas,monospace" font-size="22">Scrape · Clean · Structure · Export CSV</text>
+  <g fill="none" stroke="url(#amber)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="148" y="244" width="240" height="164" rx="18"/><path d="M148 288h240M190 338h156M190 374h102"/>
+    <path d="M424 326h140M564 326l-28-28M564 326l-28 28"/>
+    <rect x="608" y="244" width="190" height="164" rx="18"/><path d="M646 286h114M646 326h114M646 366h78"/>
+    <path d="M834 326h112M946 326l-28-28M946 326l-28 28"/>
+    <path d="M1000 244h86l46 46v118h-132zM1086 244v46h46M1030 330h72M1030 366h72"/>
+  </g>
+</svg>

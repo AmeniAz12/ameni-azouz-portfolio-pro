@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">MS17-010 EternalBlue lab cover</title>
+  <desc id="desc">Professional vulnerability assessment cover showing SMB enumeration, validation and controlled exploitation evidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#07111e"/><stop offset=".55" stop-color="#0b1d31"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0v44" fill="none" stroke="#93c5fd" stroke-opacity=".075"/></pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/><rect width="1200" height="675" fill="url(#grid)"/>
+  <rect x="82" y="72" width="1036" height="531" rx="28" fill="#0b1422" stroke="#244564"/>
+  <text x="132" y="132" fill="#eff6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">MS17-010 Lab</text>
+  <text x="132" y="532" fill="#93c5fd" font-family="Consolas,monospace" font-size="22">SMB · Enumeration · Validation · SYSTEM Proof</text>
+  <g fill="none" stroke="url(#blue)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="150" y="255" width="210" height="136" rx="18"/><path d="M150 296h210M198 391v42M312 391v42M184 433h142"/>
+    <path d="M392 323h134M526 323l-28-28M526 323l-28 28"/>
+    <rect x="562" y="235" width="176" height="176" rx="18"/><path d="M604 285h92M604 327h92M604 369h60"/>
+    <path d="M780 323h116M896 323l-28-28M896 323l-28 28"/>
+    <path d="M1006 241 1080 277v82c0 56-34 94-74 108-40-14-74-52-74-108v-82l74-36Z"/><path d="m970 358 25 25 51-61"/>
+  </g>
+  <rect x="158" y="454" width="284" height="38" rx="8" fill="#10243a" stroke="#244564"/><text x="178" y="480" fill="#bfdbfe" font-family="Consolas,monospace" font-size="18">445/tcp open smb</text>
+</svg>
