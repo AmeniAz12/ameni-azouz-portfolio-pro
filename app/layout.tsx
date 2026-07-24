@@ -2,8 +2,14 @@ import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from "next"
 import "./globals.css"
 
+const githubPagesRepo = process.env.GITHUB_PAGES_REPO ?? "ameni-azouz-portfolio"
+const siteUrl =
+  process.env.GITHUB_PAGES === "true"
+    ? `https://ameniaz12.github.io/${githubPagesRepo}`
+    : "https://ameni-azouz-portfolio.vercel.app"
+
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ameniaz12.github.io/ameni-azouz-portfolio"),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Ameni Azzouz | Cybersecurity · DevSecOps · Cloud Security",
     template: "%s | Ameni Azzouz",
@@ -30,7 +36,7 @@ export const metadata: Metadata = {
     title: "Ameni Azzouz | Cybersecurity · DevSecOps · Cloud Security",
     description:
       "DevSecOps, application security, cloud security, penetration testing, SOC/SIEM and malware analysis. FR/EN portfolio.",
-    url: "https://ameniaz12.github.io/ameni-azouz-portfolio",
+    url: siteUrl,
     type: "website",
     locale: "fr_FR",
     alternateLocale: ["en_US"],
@@ -55,8 +61,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: "https://ameniaz12.github.io/ameni-azouz-portfolio/icon.svg",
-    apple: "https://ameniaz12.github.io/ameni-azouz-portfolio/apple-icon.png",
+    icon: `${siteUrl}/icon.svg`,
+    apple: `${siteUrl}/apple-icon.png`,
   },
 }
 

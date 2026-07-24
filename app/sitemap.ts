@@ -3,9 +3,10 @@ import { translations } from "@/lib/i18n/translations"
 
 export const dynamic = "force-static"
 
+const githubPagesRepo = process.env.GITHUB_PAGES_REPO ?? "ameni-azouz-portfolio"
 const baseUrl =
   process.env.GITHUB_PAGES === "true"
-    ? "https://ameniaz12.github.io/ameni-azouz-portfolio"
+    ? `https://ameniaz12.github.io/${githubPagesRepo}`
     : "https://ameni-azouz-portfolio.vercel.app"
 
 export default function sitemap(): MetadataRoute.Sitemap {

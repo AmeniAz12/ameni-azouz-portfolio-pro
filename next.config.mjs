@@ -1,7 +1,8 @@
 /* global process */
 
 const isGithubPages = process.env.GITHUB_PAGES === "true"
-const githubPagesBasePath = "/ameni-azouz-portfolio"
+const githubPagesRepo = process.env.GITHUB_PAGES_REPO ?? "ameni-azouz-portfolio"
+const githubPagesBasePath = `/${githubPagesRepo}`
 
 if (isGithubPages) {
   process.env.NEXT_PUBLIC_BASE_PATH = githubPagesBasePath
