@@ -1740,9 +1740,9 @@ export const translations: Record<Language, Translation> = {
 
       heading: "Certifications",
 
-      subtitle: "Certifications obtenues et certifications en préparation, clairement separees.",
+      subtitle: "Certifications obtenues, examens réussis et certifications en préparation.",
 
-      achievedTitle: "Certifications obtenues",
+      achievedTitle: "Certifications obtenues et examens réussis",
 
       inProgressTitle: "Certifications en préparation",
 
@@ -1760,7 +1760,7 @@ export const translations: Record<Language, Translation> = {
 
         { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack & Fix Academy", status: "Obtenue", year: "Décembre 2025", skills: ["Phishing", "Sensibilisation sécurité", "Email security"], certificateImage: { src: "/images/certificates/cpps-hack-and-fix.webp", alt: "Certificat Certified Phishing Prevention Specialist CPPS Hack and Fix d'Ameni Azouz" } },
 
-        { name: "PECB ISO/IEC 27001 Lead Implementer", issuer: "PECB", status: "En préparation", skills: ["ISO 27001", "Gouvernance", "SMSI"] },
+        { name: "PECB ISO/IEC 27001 Lead Implementer", issuer: "PECB", status: "Examen réussi", skills: ["ISO 27001", "Gouvernance", "SMSI"] },
 
         { name: "AWS Certified Solutions Architect - Associate", issuer: "Amazon Web Services", status: "En préparation", skills: ["AWS", "Cloud", "Architecture"] },
 
@@ -3253,9 +3253,9 @@ export const translations: Record<Language, Translation> = {
 
       heading: "Certifications",
 
-      subtitle: "Achieved certifications and certifications in progress are clearly separated.",
+      subtitle: "Earned certifications, passed exams, and certifications in progress.",
 
-      achievedTitle: "Earned certifications",
+      achievedTitle: "Earned certifications and passed exams",
 
       inProgressTitle: "In progress",
 
@@ -3273,7 +3273,7 @@ export const translations: Record<Language, Translation> = {
 
         { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack & Fix Academy", status: "Achieved", year: "December 2025", skills: ["Phishing", "Security awareness", "Email security"], certificateImage: { src: "/images/certificates/cpps-hack-and-fix.webp", alt: "Ameni Azouz Certified Phishing Prevention Specialist CPPS Hack and Fix certificate" } },
 
-        { name: "PECB ISO/IEC 27001 Lead Implementer", issuer: "PECB", status: "In progress", skills: ["ISO 27001", "Governance", "ISMS"] },
+        { name: "PECB ISO/IEC 27001 Lead Implementer", issuer: "PECB", status: "Exam Passed", skills: ["ISO 27001", "Governance", "ISMS"] },
 
         { name: "AWS Certified Solutions Architect - Associate", issuer: "Amazon Web Services", status: "In progress", skills: ["AWS", "Cloud", "Architecture"] },
 

@@ -7,7 +7,7 @@ import { withBasePath } from "@/lib/site-paths"
 import { Reveal } from "@/components/reveal"
 import { SectionHeader } from "@/components/section-header"
 
-const ACHIEVED = ["Obtenue", "Achieved"]
+const ACHIEVED = ["Obtenue", "Achieved", "Examen réussi", "Exam Passed"]
 
 export function Certifications() {
   const { t } = useLanguage()
