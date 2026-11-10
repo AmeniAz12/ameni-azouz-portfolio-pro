@@ -56,6 +56,9 @@ export function Certifications() {
                   )}
                   <h3 className="text-sm font-semibold leading-snug text-balance">{cert.name}</h3>
                   <p className="mt-1 text-xs text-muted-foreground">{cert.issuer}</p>
+                  {cert.examResult && (
+                    <p className="mt-1 text-xs text-muted-foreground">{cert.examResult}</p>
+                  )}
                   <div className="mt-2.5 flex flex-wrap items-center gap-2">
                     {cert.year && <span className="font-mono text-xs text-muted-foreground">{cert.year}</span>}
                     <span

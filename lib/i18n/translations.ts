@@ -96,6 +96,8 @@ export interface CertContent {
 
   verificationUrl?: string
 
+  examResult?: string
+
   certificateImage?: { src: string; alt: string }
 
 }
@@ -481,19 +483,21 @@ export const translations: Record<Language, Translation> = {
 
         { value: "PCAP", label: "Certification obtenue" },
 
+        { value: "ISO/IEC 27001", label: "PECB · Provisional Implementer" },
+
         { value: "Dot IT", label: "Stage cybersécurité" },
 
       ],
 
       focusTitle: "Domaines cibles",
 
-      focusAreas: ["DevSecOps", "Sécurité applicative", "Sécurité cloud", "Pentest", "Analyse de malware", "SOC / SIEM", "Linux, Docker et Kubernetes"],
+      focusAreas: ["Gouvernance de la sécurité · ISO/IEC 27001", "DevSecOps", "Sécurité applicative", "Sécurité cloud", "Pentest", "Analyse de malware", "SOC / SIEM", "Linux, Docker et Kubernetes"],
 
       profileTitle: "Mon profil",
 
       profileText:
 
-        "Je construis un profil pratique en sécurité applicative, DevSecOps et sécurité des environnements cloud et conteneurisés. J'aime analyser un système de bout en bout, comprendre le risque réel, puis transformer les constats techniques en recommandations claires et actionnables.",
+        "Je construis un profil pratique en sécurité applicative, DevSecOps et sécurité des environnements cloud et conteneurisés. J'aime analyser un système de bout en bout, comprendre le risque réel, puis transformer les constats techniques en recommandations claires et actionnables. Je complète ce profil technique par des connaissances en gouvernance de la sécurité et en mise en œuvre d’un SMSI selon ISO/IEC 27001.",
 
       contributionTitle: "Ce que j'apporte",
 
@@ -1728,6 +1732,8 @@ export const translations: Record<Language, Translation> = {
 
         { name: "Analyse de malware", items: ["Analyse automatisée", "Analyse statique", "Analyse dynamique", "Sandboxing", "Analyse comportementale", "Environnement Windows isolé"] },
 
+        { name: "Gouvernance, risques et conformité (GRC)", items: ["ISO/IEC 27001", "Mise en œuvre d’un SMSI", "Appréciation et traitement des risques", "Sélection des mesures de sécurité", "Amélioration continue"] },
+
         { name: "Systémes et developpement", items: ["Linux", "Ubuntu", "Windows", "VMware", "Administration système", "Python", "FastAPI", "Flask", "Elasticsearch", "Git", "GitHub"] },
 
       ],
@@ -1760,7 +1766,7 @@ export const translations: Record<Language, Translation> = {
 
         { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack & Fix Academy", status: "Obtenue", year: "Décembre 2025", skills: ["Phishing", "Sensibilisation sécurité", "Email security"], certificateImage: { src: "/images/certificates/cpps-hack-and-fix.webp", alt: "Certificat Certified Phishing Prevention Specialist CPPS Hack and Fix d'Ameni Azouz" } },
 
-        { name: "PECB ISO/IEC 27001 Lead Implementer", issuer: "PECB", status: "Examen réussi", skills: ["ISO 27001", "Gouvernance", "SMSI"] },
+        { name: "ISO/IEC 27001 Provisional Implementer", issuer: "PECB", status: "Obtenue", year: "10 novembre 2026", examResult: "Examen ISO/IEC 27001 Lead Implementer réussi", skills: ["ISO/IEC 27001", "Gouvernance", "SMSI"], certificateImage: { src: "/images/certificates/pecb-iso-27001.jpg", alt: "Certificat PECB ISO/IEC 27001 Provisional Implementer" } },
 
         { name: "AWS Certified Solutions Architect - Associate", issuer: "Amazon Web Services", status: "En préparation", skills: ["AWS", "Cloud", "Architecture"] },
 
@@ -1998,19 +2004,21 @@ export const translations: Record<Language, Translation> = {
 
         { value: "PCAP", label: "Certification achieved" },
 
+        { value: "ISO/IEC 27001", label: "PECB · Provisional Implementer" },
+
         { value: "Dot IT", label: "Cybersecurity internship" },
 
       ],
 
       focusTitle: "Target domains",
 
-      focusAreas: ["DevSecOps", "Application Security", "Cloud Security", "Penetration Testing", "Malware Analysis", "SOC / SIEM", "Linux, Docker and Kubernetes"],
+      focusAreas: ["Information Security Governance · ISO/IEC 27001", "DevSecOps", "Application Security", "Cloud Security", "Penetration Testing", "Malware Analysis", "SOC / SIEM", "Linux, Docker and Kubernetes"],
 
       profileTitle: "My profile",
 
       profileText:
 
-        "Cybersecurity engineering student building a practical profile across application security, DevSecOps, cloud/container environments and risk analysis. My projects follow a structured approach: observe, test, document and recommend concrete remediation actions.",
+        "Cybersecurity engineering student building a practical profile across application security, DevSecOps, cloud/container environments and risk analysis. My projects follow a structured approach: observe, test, document and recommend concrete remediation actions. I complement this technical background with knowledge of information security governance and ISMS implementation under ISO/IEC 27001.",
 
       contributionTitle: "What I bring",
 
@@ -3241,6 +3249,8 @@ export const translations: Record<Language, Translation> = {
 
         { name: "Malware analysis", items: ["Automated analysis", "Static analysis", "Dynamic analysis", "Sandboxing", "Behavioral analysis", "Isolated Windows environment"] },
 
+        { name: "Governance, Risk and Compliance (GRC)", items: ["ISO/IEC 27001", "ISMS implementation", "Risk assessment and treatment", "Security control selection", "Continual improvement"] },
+
         { name: "Systems and development", items: ["Linux", "Ubuntu", "Windows", "VMware", "System administration", "Python", "FastAPI", "Flask", "Elasticsearch", "Git", "GitHub"] },
 
       ],
@@ -3273,7 +3283,7 @@ export const translations: Record<Language, Translation> = {
 
         { name: "CPPS - Certified Phishing Prevention Specialist", issuer: "Hack & Fix Academy", status: "Achieved", year: "December 2025", skills: ["Phishing", "Security awareness", "Email security"], certificateImage: { src: "/images/certificates/cpps-hack-and-fix.webp", alt: "Ameni Azouz Certified Phishing Prevention Specialist CPPS Hack and Fix certificate" } },
 
-        { name: "PECB ISO/IEC 27001 Lead Implementer", issuer: "PECB", status: "Exam Passed", skills: ["ISO 27001", "Governance", "ISMS"] },
+        { name: "ISO/IEC 27001 Provisional Implementer", issuer: "PECB", status: "Achieved", year: "November 10, 2026", examResult: "ISO/IEC 27001 Lead Implementer exam passed", skills: ["ISO/IEC 27001", "Governance", "ISMS"], certificateImage: { src: "/images/certificates/pecb-iso-27001.jpg", alt: "PECB ISO/IEC 27001 Provisional Implementer certificate" } },
 
         { name: "AWS Certified Solutions Architect - Associate", issuer: "Amazon Web Services", status: "In progress", skills: ["AWS", "Cloud", "Architecture"] },
 
