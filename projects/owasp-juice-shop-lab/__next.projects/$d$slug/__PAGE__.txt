@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[71440,["/ameni-azouz-portfolio-pro/_next/static/chunks/0v0l27rweo6y8.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0oj_gqyj_v382.js","/ameni-azouz-portfolio-pro/_next/static/chunks/02or-ea05icmi.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0~9gpmd6x1jbp.js"],"ProjectCaseStudyClient"]
-3:I[54439,["/ameni-azouz-portfolio-pro/_next/static/chunks/0v0l27rweo6y8.js","/ameni-azouz-portfolio-pro/_next/static/chunks/0oj_gqyj_v382.js"],"OutletBoundary"]
+2:I[8403,["574","static/chunks/574-8947b9fa39a15397.js","858","static/chunks/858-bc4cd567ef467a7d.js","419","static/chunks/app/projects/%5Bslug%5D/page-5e1286fa0b8cca60.js"],"ProjectCaseStudyClient"]
+3:I[484,[],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"owasp-juice-shop-lab"}],[["$","script","script-0",{"src":"/ameni-azouz-portfolio-pro/_next/static/chunks/02or-ea05icmi.js","async":true}],["$","script","script-1",{"src":"/ameni-azouz-portfolio-pro/_next/static/chunks/0~9gpmd6x1jbp.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"eFkSWCUR98IKCSvikX_Fr"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"owasp-juice-shop-lab"}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"V8UfSviWF6CJ5mayRApYT"}
 5:null
