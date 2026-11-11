@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[8403,["574","static/chunks/574-8947b9fa39a15397.js","858","static/chunks/858-bc4cd567ef467a7d.js","419","static/chunks/app/projects/%5Bslug%5D/page-5e1286fa0b8cca60.js"],"ProjectCaseStudyClient"]
+2:I[8403,["574","static/chunks/574-8947b9fa39a15397.js","858","static/chunks/858-d30a682b58e88d4f.js","419","static/chunks/app/projects/%5Bslug%5D/page-5e1286fa0b8cca60.js"],"ProjectCaseStudyClient"]
 3:I[484,[],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"ms17-010-eternalblue-lab"}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"V8UfSviWF6CJ5mayRApYT"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"slug":"ms17-010-eternalblue-lab"}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"OVc7PdGh_wNlvhfu5TviR"}
 5:null
