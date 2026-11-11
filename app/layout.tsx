@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | Ameni Azzouz",
   },
   description:
-    "Cybersecurity portfolio of Ameni Azzouz. DevSecOps, application security, cloud security, penetration testing, SOC/SIEM and malware analysis. Graduation internship in France from January 2027 and available now for junior cybersecurity opportunities.",
+    "Ameni Azzouz’s cybersecurity portfolio. Projects in DevSecOps, application security, cloud security, SOC/SIEM and network security, with a focus on security governance and ISO/IEC 27001.",
   keywords: [
     "cybersecurity",
     "cybersecurite",
@@ -27,15 +27,15 @@ export const metadata: Metadata = {
     "malware analysis",
     "SIEM",
     "SOC",
-    "stage PFE cybersecurite",
-    "cybersecurity internship France",
+    "security governance",
+    "ISO/IEC 27001",
     "Ameni Azzouz",
   ],
   authors: [{ name: "Ameni Azzouz" }],
   openGraph: {
     title: "Ameni Azzouz | Cybersecurity · DevSecOps · Cloud Security",
     description:
-      "DevSecOps, application security, cloud security, penetration testing, SOC/SIEM and malware analysis. FR/EN portfolio.",
+      "Ameni Azzouz’s cybersecurity portfolio. Projects in DevSecOps, application security, cloud security, SOC/SIEM and network security, with a focus on security governance and ISO/IEC 27001.",
     url: siteUrl,
     type: "website",
     locale: "fr_FR",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Ameni Azzouz | Cybersecurity · DevSecOps · Cloud Security",
     description:
-      "DevSecOps, application security, cloud security, penetration testing, SOC/SIEM and malware analysis. Available now for junior cybersecurity opportunities.",
+      "Ameni Azzouz’s cybersecurity portfolio. Projects in DevSecOps, application security, cloud security, SOC/SIEM and network security, with a focus on security governance and ISO/IEC 27001.",
     images: ["/og-image.svg"],
   },
   alternates: {

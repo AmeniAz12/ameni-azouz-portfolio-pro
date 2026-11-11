@@ -2,7 +2,7 @@
 
 Bilingual cybersecurity portfolio built with Next.js, React, TypeScript and Tailwind CSS.
 
-The site presents Ameni Azzouz, a final-year cybersecurity engineering student looking for a graduation internship or junior cybersecurity opportunity from January 2027, mainly in France.
+The site presents Ameni Azzouz’s cybersecurity engineering profile, projects and certifications across DevSecOps, application security, cloud security, network security and ISO/IEC 27001.
 
 ## Focus Areas
 

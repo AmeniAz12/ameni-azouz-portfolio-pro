@@ -88,7 +88,7 @@ export function Hero() {
           </p>
 
           <div className="mt-6 flex flex-wrap gap-2">
-            {t.hero.availabilityBadges.map((badge) => (
+            {t.hero.focusBadges.map((badge) => (
               <span
                 key={badge}
                 className="rounded-full border border-primary/25 bg-primary/10 px-3 py-1.5 font-mono text-xs text-primary"

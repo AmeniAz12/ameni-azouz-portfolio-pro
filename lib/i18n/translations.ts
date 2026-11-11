@@ -160,7 +160,7 @@ export interface Translation {
 
     description: string
 
-    availabilityBadges: string[]
+    focusBadges: string[]
 
     viewProjects: string
 
@@ -169,10 +169,6 @@ export interface Translation {
     github: string
 
     contact: string
-
-    availability: string
-
-    location: string
 
     terminalLines: string[]
 
@@ -385,7 +381,7 @@ export const translations: Record<Language, Translation> = {
 
       description:
 
-        "Portfolio cybersécurité bilingue d'Ameni Azzouz. DevSecOps, sécurité applicative, cloud security, pentest, SOC/SIEM et analyse de malware. Stage PFE en France à partir de janvier 2027 et opportunités junior disponibles dès maintenant.",
+        "Portfolio cybersécurité d’Ameni Azzouz. Projets en DevSecOps, sécurité applicative, cloud, SOC/SIEM et sécurité réseau. Gouvernance de la sécurité et ISO/IEC 27001.",
 
     },
 
@@ -419,7 +415,7 @@ export const translations: Record<Language, Translation> = {
 
     hero: {
 
-      badge: "Stage PFE France · Janvier 2027",
+      badge: "Portfolio cybersécurité",
 
       title: "Ameni Azzouz",
 
@@ -427,9 +423,9 @@ export const translations: Record<Language, Translation> = {
 
       description:
 
-        "Étudiante en dernière année du cycle d'ingénieur, spécialisée en cybersécurité, je recherche un stage PFE en France à partir de janvier 2027. Je suis également disponible dès maintenant pour des opportunités junior en cybersécurité en Tunisie ou en France. Mes projets mettent en pratique le DevSecOps, la sécurité applicative, le SOC/SIEM, le pentest et l'analyse de malware.",
+        "Étudiante ingénieure en cybersécurité, je travaille sur la sécurité applicative, le DevSecOps et la sécurité des infrastructures. Mes projets couvrent la sécurisation de pipelines CI/CD, la supervision des événements de sécurité et la protection des réseaux. Je développe aussi mes compétences en gouvernance et en gestion des risques avec ISO/IEC 27001.",
 
-      availabilityBadges: ["Stage PFE France · Janvier 2027", "Opportunités junior · Disponible maintenant · Tunisie / France"],
+      focusBadges: ["DevSecOps et sécurité applicative", "Sécurité cloud et supervision", "Gouvernance et ISO/IEC 27001"],
 
       viewProjects: "Voir mes projets",
 
@@ -439,26 +435,13 @@ export const translations: Record<Language, Translation> = {
 
       contact: "LinkedIn",
 
-      availability: "Stage PFE France · Janvier 2027 | Junior cybersécurité · disponible maintenant · Tunisie / France",
-
-      location: "Tunisie / France",
-
       terminalLines: [
-
         "$ profil",
-
-        "Ameni Azzouz - Étudiante ingénieure en cybersécurité",
-
+        "Ameni Azzouz · Étudiante ingénieure en cybersécurité",
         "$ domaines",
-
-        "DevSecOps · AppSec · Sécurité cloud · Pentest · SOC/SIEM · Analyse malware",
-
-        "$ disponibilité",
-
-        "Junior : maintenant - Tunisie / France",
-
-        "PFE : janvier 2027 - France",
-
+        "DevSecOps · AppSec · Sécurité cloud · SOC/SIEM",
+        "$ gouvernance",
+        "ISO/IEC 27001 · SMSI · Gestion des risques",
       ],    },
 
     about: {
@@ -597,9 +580,9 @@ export const translations: Record<Language, Translation> = {
 
           title: "Projets phares",
 
-          description: "Les projets les plus solides pour démontrer DevSecOps, analyse de malware, évaluation Windows et ingénierie réseau.",
+          description: "Trois études de cas en sécurité des pipelines CI/CD, supervision SOC et sécurité réseau.",
 
-          slugs: ["backbone-ip-mpls-enterprise", "devsecops-fastapi-soc-osint", "agent-tesla-malware-analysis", "ms17-010-eternalblue-lab"],
+          slugs: ["devsecops-fastapi-soc-osint", "wazuh-siem-lab", "backbone-ip-mpls-enterprise"],
 
         },
 
@@ -607,9 +590,9 @@ export const translations: Record<Language, Translation> = {
 
           title: "Labs sécurité / projets complémentaires",
 
-          description: "Laboratoires et outils complémentaires en SOC, sécurité web et Python sécurité.",
+          description: "Laboratoires et outils en sécurité applicative, analyse de malware, évaluation Windows et développement Python.",
 
-          slugs: ["wazuh-siem-lab", "owasp-juice-shop-lab", "scanpot-security-monitoring-toolbox", "password-security-analyzer", "network-recon-analyzer"],
+          slugs: ["agent-tesla-malware-analysis", "ms17-010-eternalblue-lab", "owasp-juice-shop-lab", "scanpot-security-monitoring-toolbox", "password-security-analyzer", "network-recon-analyzer"],
 
         },
 
@@ -1858,9 +1841,9 @@ export const translations: Record<Language, Translation> = {
 
       label: "Contact",
 
-      heading: "Une opportunité en cybersécurité · Échangeons.",
+      heading: "Échangeons sur la cybersécurité",
 
-      subtitle: "Je recherche un stage PFE en France à partir de janvier 2027 et je suis également ouverte dès maintenant aux opportunités junior en cybersécurité en Tunisie ou en France.",
+      subtitle: "Contactez-moi pour discuter d’un projet, d’une collaboration ou d’une opportunité en cybersécurité.",
 
       nameLabel: "Nom",
 
@@ -1872,7 +1855,7 @@ export const translations: Record<Language, Translation> = {
 
       subjectLabel: "Sujet",
 
-      subjectPlaceholder: "Stage PFE / opportunité junior",
+      subjectPlaceholder: "Projet ou opportunité en cybersécurité",
 
       messageLabel: "Message",
 
@@ -1890,7 +1873,7 @@ export const translations: Record<Language, Translation> = {
 
       location: "Localisation",
 
-      locationValue: "Tunisie / France",
+      locationValue: "Tunisie",
 
       downloadCv: "Télécharger le CV",
 
@@ -1920,7 +1903,7 @@ export const translations: Record<Language, Translation> = {
 
       description:
 
-        "Bilingual cybersecurity portfolio of Ameni Azzouz. DevSecOps, application security, cloud security, penetration testing, SOC/SIEM and malware analysis. Seeking a graduation internship in France from January 2027 and available now for junior cybersecurity opportunities.",
+        "Ameni Azzouz’s cybersecurity portfolio. Projects in DevSecOps, application security, cloud security, SOC/SIEM and network security, with a focus on security governance and ISO/IEC 27001.",
 
     },
 
@@ -1954,7 +1937,7 @@ export const translations: Record<Language, Translation> = {
 
     hero: {
 
-      badge: "Graduation Internship in France · January 2027",
+      badge: "Cybersecurity Portfolio",
 
       title: "Ameni Azzouz",
 
@@ -1962,9 +1945,9 @@ export const translations: Record<Language, Translation> = {
 
       description:
 
-        "Final-year engineering student specializing in cybersecurity, seeking a graduation internship in France starting January 2027. I am also available now for junior cybersecurity opportunities in Tunisia or France. My projects demonstrate hands-on work in DevSecOps, application security, SOC/SIEM, penetration testing and malware analysis.",
+        "I am a cybersecurity engineering student focused on application security, DevSecOps and infrastructure security. My projects cover securing CI/CD pipelines, monitoring security events and protecting networks. I am also developing my skills in governance and risk management through ISO/IEC 27001.",
 
-      availabilityBadges: ["Graduation Internship in France · January 2027", "Junior Cybersecurity Opportunities · Available Now · Tunisia / France"],
+      focusBadges: ["DevSecOps and Application Security", "Cloud Security and Monitoring", "Governance and ISO/IEC 27001"],
 
       viewProjects: "View my work",
 
@@ -1974,11 +1957,14 @@ export const translations: Record<Language, Translation> = {
 
       contact: "LinkedIn",
 
-      availability: "Graduation internship in France · January 2027 | Junior cybersecurity · available now · Tunisia / France",
-
-      location: "Tunisia / France",
-
-      terminalLines: ["$ profile", "Ameni Azzouz - cybersecurity engineering student", "$ focus", "DevSecOps · AppSec · Cloud security · Pentest · SOC/SIEM · Malware analysis", "$ availability", "Junior: available now - Tunisia / France", "Internship: January 2027 - France"],
+      terminalLines: [
+        "$ profile",
+        "Ameni Azzouz · Cybersecurity engineering student",
+        "$ focus",
+        "DevSecOps · AppSec · Cloud security · SOC/SIEM",
+        "$ governance",
+        "ISO/IEC 27001 · ISMS · Risk management",
+      ],
 
     },
 
@@ -2118,9 +2104,9 @@ export const translations: Record<Language, Translation> = {
 
           title: "Featured Projects",
 
-          description: "Priority cybersecurity and network engineering case studies covering DevSecOps, malware analysis, Windows assessment and enterprise backbone design.",
+          description: "Three case studies in CI/CD security, SOC monitoring and network security.",
 
-          slugs: ["backbone-ip-mpls-enterprise", "devsecops-fastapi-soc-osint", "agent-tesla-malware-analysis", "ms17-010-eternalblue-lab"],
+          slugs: ["devsecops-fastapi-soc-osint", "wazuh-siem-lab", "backbone-ip-mpls-enterprise"],
 
         },
 
@@ -2128,9 +2114,9 @@ export const translations: Record<Language, Translation> = {
 
           title: "Security Labs / Additional Projects",
 
-          description: "SOC/SIEM, OWASP, monitoring and Python security tooling with practical demonstrations.",
+          description: "Labs and tools covering application security, malware analysis, Windows assessment and Python security tooling.",
 
-          slugs: ["wazuh-siem-lab", "owasp-juice-shop-lab", "scanpot-security-monitoring-toolbox", "password-security-analyzer", "network-recon-analyzer"],
+          slugs: ["agent-tesla-malware-analysis", "ms17-010-eternalblue-lab", "owasp-juice-shop-lab", "scanpot-security-monitoring-toolbox", "password-security-analyzer", "network-recon-analyzer"],
 
         },
 
@@ -3375,9 +3361,9 @@ export const translations: Record<Language, Translation> = {
 
       label: "Contact",
 
-      heading: "Let's discuss cybersecurity opportunities.",
+      heading: "Let’s talk cybersecurity",
 
-      subtitle: "I am seeking a graduation internship in France starting January 2027 and I am also currently open to junior cybersecurity opportunities in Tunisia or France.",
+      subtitle: "Get in touch to discuss a cybersecurity project, collaboration or opportunity.",
 
       nameLabel: "Name",
 
@@ -3389,7 +3375,7 @@ export const translations: Record<Language, Translation> = {
 
       subjectLabel: "Subject",
 
-      subjectPlaceholder: "Internship / junior opportunity",
+      subjectPlaceholder: "Cybersecurity project or opportunity",
 
       messageLabel: "Message",
 
@@ -3407,7 +3393,7 @@ export const translations: Record<Language, Translation> = {
 
       location: "Location",
 
-      locationValue: "Tunisia / France",
+      locationValue: "Tunisia",
 
       downloadCv: "Download resume",
 
